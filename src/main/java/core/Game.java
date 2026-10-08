@@ -702,11 +702,9 @@ public class Game {
      * and then run this class.
      */
     public static void main(String[] args) {
-<<<<<<< Updated upstream
-        String gameType = Utils.getArg(args, "game", "SushiGo");
-=======
+
         String gameType = Utils.getArg(args, "game", "TicTacToe");
->>>>>>> Stashed changes
+
         boolean useGUI = Utils.getArg(args, "gui", true);
         int turnPause = Utils.getArg(args, "turnPause", 800);
         long seed = Utils.getArg(args, "seed", System.currentTimeMillis());

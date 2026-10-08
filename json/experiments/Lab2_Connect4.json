@@ -4,5 +4,8 @@
   "mode" : "random",
   "matchups" : 1000,
   "verbose" : true,
-  "seed": 7402344
+  "seed": 7402344,
+  "listener" : "json/listeners/basiclistener.json",
+  "destDir" : "outputdir",
+  "playerDirectory" : "json/lab2/tournamentPlayers"
 }
