@@ -1,0 +1,16 @@
+Game: TicTacToe, Players: 2, Mode: EXHAUSTIVE, TotalGames: 1000, GamesPerMatchup: 500
+basicmcts got 945.00 points. basicmcts won 98.8% of the 1000 games of the tournament. basicmcts won 98.8% of the 1000 games it played during the tournament.
+basicmcts got a mean score of 0.89.
+basicmcts won 90.2% of the 1000 games against random.
+
+random got 55.00 points. random won 9.8% of the 1000 games of the tournament. random won 9.8% of the 1000 games it played during the tournament.
+random got a mean score of -0.89.
+random won 1.2% of the 1000 games against basicmcts.
+
+---- Ranking ---- (+/- are standard errors on the mean calculated using a Normal approximation) 
+basicmcts: Win rate 0.95 +/- 0.006	Mean Ordinal 1.01 +/- 0.00
+random: Win rate 0.06 +/- 0.006	Mean Ordinal 1.90 +/- 0.01
+
+
+---- Alpha Rank ----  
+

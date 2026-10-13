@@ -1,0 +1,32 @@
+Game: CantStop, Players: 2, Mode: EXHAUSTIVE, TotalGames: 100, GamesPerMatchup: 50
+basicmcts1 got 42.00 points. basicmcts1 won 42.0% of the 100 games of the tournament. basicmcts1 won 42.0% of the 100 games it played during the tournament.
+basicmcts1 got a mean score of 1.92.
+basicmcts1 won 42.0% of the 100 games against basicmcts2.
+
+basicmcts2 got 58.00 points. basicmcts2 won 58.0% of the 100 games of the tournament. basicmcts2 won 58.0% of the 100 games it played during the tournament.
+basicmcts2 got a mean score of 2.21.
+basicmcts2 won 58.0% of the 100 games against basicmcts1.
+
+---- Ranking ---- (+/- are standard errors on the mean calculated using a Normal approximation) 
+basicmcts2: Win rate 0.58 +/- 0.049	Mean Ordinal 1.42 +/- 0.05
+basicmcts1: Win rate 0.42 +/- 0.049	Mean Ordinal 1.58 +/- 0.05
+
+
+---- Alpha Rank ----  
+
+Game: CantStop, Players: 2, Mode: EXHAUSTIVE, TotalGames: 100, GamesPerMatchup: 50
+basicmcts1 got 100.00 points. basicmcts1 won 100.0% of the 100 games of the tournament. basicmcts1 won 100.0% of the 100 games it played during the tournament.
+basicmcts1 got a mean score of 3.07.
+basicmcts1 won 100.0% of the 100 games against basicmcts2.
+
+basicmcts2 got 0.00 points. basicmcts2 won 0.0% of the 100 games of the tournament. basicmcts2 won 0.0% of the 100 games it played during the tournament.
+basicmcts2 got a mean score of 1.61.
+basicmcts2 won 0.0% of the 100 games against basicmcts1.
+
+---- Ranking ---- (+/- are standard errors on the mean calculated using a Normal approximation) 
+basicmcts1: Win rate 1.00 +/- 0.000	Mean Ordinal 1.00 +/- 0.00
+basicmcts2: Win rate 0.00 +/- 0.000	Mean Ordinal 2.00 +/- 0.00
+
+
+---- Alpha Rank ----  
+

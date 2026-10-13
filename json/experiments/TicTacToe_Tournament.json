@@ -5,6 +5,6 @@
   "matchups" : 1000,
   "verbose" : true,
   "listener": "json/listeners/basiclistener.json",
-  "DestDir": "TicTacToe_Tournament",
-  "playerDirectory":  "TabletopGames/json/players"
+  "destDir": "TicTacToe_Tournament",
+  "playerDirectory":  "json/players/lab2/tournamentPlayers"
 }

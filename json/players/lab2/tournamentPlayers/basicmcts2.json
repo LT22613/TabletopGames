@@ -1,10 +1,10 @@
 {
   "class" : "players.basicMCTS.BasicMCTSParams",
   "K" : 1.0,
-  "rolloutLength" : 10,
-  "maxTreeDepth" : 30,
+  "rolloutLength" : 5,
+  "maxTreeDepth" : 20,
   "heuristic" : {
-    "class" : "players.heuristics.ScoreHeuristic"
+    "class" : "players.heuristics.CantStopHeuristic"
   },
   "budgetType" : "BUDGET_FM_CALLS",
   "budget" : 1000
