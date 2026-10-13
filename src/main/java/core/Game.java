@@ -702,9 +702,11 @@ public class Game {
      * and then run this class.
      */
     public static void main(String[] args) {
-        String gameType = Utils.getArg(args, "game", "SushiGo");
+
+        String gameType = Utils.getArg(args, "game", "TicTacToe");
+
         boolean useGUI = Utils.getArg(args, "gui", true);
-        int turnPause = Utils.getArg(args, "turnPause", 0);
+        int turnPause = Utils.getArg(args, "turnPause", 800);
         long seed = Utils.getArg(args, "seed", System.currentTimeMillis());
         ActionController ac = new ActionController();
 
@@ -716,14 +718,14 @@ public class Game {
 //        players.add(new HumanConsolePlayer());
 //        players.add(new RandomPlayer());
 //        players.add(new RandomPlayer());
-        players.add(new RandomPlayer());
-        players.add(new RandomPlayer());
-//        players.add(new HumanGUIPlayer(ac));
-        players.add(new BasicMCTSPlayer());
-        players.add(new BasicMCTSPlayer());
+//        players.add(new RandomPlayer());
+//        players.add(new RandomPlayer());
+//        players.add(new OSLAPlayer ());
+        players.add(new HumanGUIPlayer(ac));
 //        players.add(new BasicMCTSPlayer());
 //        players.add(new BasicMCTSPlayer());
-
+//        players.add(new BasicMCTSPlayer());
+//        players.add(new BasicMCTSPlayer());
 
         /* Game parameter configuration. Set to null to ignore and use default parameters */
         String gameParams = null;
