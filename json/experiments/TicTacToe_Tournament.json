@@ -1,0 +1,10 @@
+{
+  "game" : "TicTacToe" ,
+  "nPlayers" : 2,
+  "mode" : "exhaustive",
+  "matchups" : 1000,
+  "verbose" : true,
+  "listener": "json/listeners/basiclistener.json",
+  "DestDir": "TicTacToe_Tournament",
+  "playerDirectory":  "TabletopGames/json/players"
+}
